@@ -1,3 +1,6 @@
+#Name - Harkeerat Singh
+#Enrollment - 0157CY221056
+
 import mysql.connector
 import random
 import re
@@ -9,8 +12,8 @@ def create_connection():
     return mysql.connector.connect(
         host="localhost",      
         user="root",          
-        password="mysqlshreya11@",   
-        database="banking_system"
+        password="Harkeerat2005@",   
+        database="bankingSystem"
     )
 
 
