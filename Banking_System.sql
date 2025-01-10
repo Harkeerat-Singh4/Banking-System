@@ -83,9 +83,9 @@ CREATE TABLE `users` (
 LOCK TABLES `users` WRITE;
 INSERT INTO `users` (`user_id`, `name`, `account_number`, `dob`, `city`, `contact_number`, `email`, `address`, `balance`, `status`) 
 VALUES 
-    (1, 'Shreya', '1132576048', '2004-11-06', 'Rewa', '9039107855', 'shreya@gmail.com', 'patel Nagar', 3000.00, 'Active'), 
-    (2, 'Ram', '7525977446', '2000-10-10', 'Ujjain', '9868357918', 'Ram@123gmail.com', 'Jai Mahakal', 2500.00, 'Deactive'), 
-    (3, 'Baanu', '4788599145', '1990-10-05', 'Panvel', '9039561856', 'baanu5@gmail.com', 'saket Nagar', 50000.00, 'Active');
+    (1, 'Harkeerat', '1132576048', '2004-11-06', 'Rewa', '9039107855', 'HarkeeratSingh@gmail.com', 'patel Nagar', 3000.00, 'Active'), 
+    (2, 'Abc', '7525977446', '2000-10-10', 'Ujjain', '9868357918', 'abc@123gmail.com', 'Jai Mahakal', 2500.00, 'Deactive'), 
+    (3, 'xyz', '4788599145', '1990-10-05', 'Panvel', '9039561856', 'xyz5@gmail.com', 'saket Nagar', 50000.00, 'Active');
 UNLOCK TABLES;
 
 -- Revert back to original session settings
